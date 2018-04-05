@@ -1,0 +1,50 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.pro</groupId>
+  <artifactId>t1</artifactId>
+  <packaging>war</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <name>t1 Maven Webapp</name>
+  <url>http://maven.apache.org</url>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+        <groupId>org.drools</groupId>
+        <artifactId>drools-core</artifactId>
+        <version>7.6.0.Final</version>
+    </dependency>
+    <dependency>
+        <groupId>org.drools</groupId>
+        <artifactId>drools-decisiontables</artifactId>
+        <version>7.6.0.Final</version>
+    </dependency>
+      <dependency>
+          <groupId>org.drools</groupId>
+          <artifactId>drools-compiler</artifactId>
+          <version>7.6.0.Final</version>
+      </dependency>
+
+      <dependency>
+          <groupId>org.slf4j</groupId>
+          <artifactId>slf4j-api</artifactId>
+          <version>1.8.0-beta2</version>
+      </dependency>
+
+      <dependency>
+          <groupId>org.drools</groupId>
+          <artifactId>drools-api</artifactId>
+          <version>5.1.1</version>
+      </dependency>
+
+  </dependencies>
+  <build>
+    <finalName>t1</finalName>
+  </build>
+</project>
